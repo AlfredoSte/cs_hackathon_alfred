@@ -1,0 +1,34 @@
+version: 2
+sources:
+  - name: cs_hackathon_source_data_salesforce
+    database: y42-solution-engineering
+    schema: cs_hackathon_source_data_salesforce
+    tables:
+      - name: SF_ACCOUNTS
+      - name: SF_CONTACTS
+      - name: SF_OPPORTUNITIES
+      - name: SF_Y42_ORGS
+      - name: SF_Y42_ORGS_V2
+  - name: vdemo_public_cshackathoneumultiregion_main
+    database: y42-solution-engineering
+    schema: vdemo_public_cshackathoneumultiregion_main
+    tables:
+    - name: Integrations_Y42_Analytics_Integrations_src_job_info_service_job_info_service_public_job_step
+    - name: Integrations_Y42_Analytics_Integrations_src_job_info_service_job_info_service_public_latest_job
+    - name: Integrations_Y42_Analytics_Integrations_src_job_info_service_job_info_service_public_lineage
+    - name: Integrations_Y42_Analytics_Integrations_src_zendesk_groups
+    - name: Integrations_Y42_Analytics_Integrations_src_zendesk_organizations
+    - name: Integrations_Y42_Analytics_Integrations_src_zendesk_satisfaction_ratings
+    - name: Integrations_Y42_Analytics_Integrations_src_zendesk_ticket_audits
+    - name: Integrations_Y42_Analytics_Integrations_src_zendesk_ticket_comments
+    - name: Integrations_Y42_Analytics_Integrations_src_zendesk_ticket_fields
+    - name: Integrations_Y42_Analytics_Integrations_src_zendesk_ticket_metrics
+    - name: Integrations_Y42_Analytics_Integrations_src_zendesk_tickets
+    - name: Integrations_Y42_Analytics_Integrations_src_zendesk_users
+    - name: Integrations_Y42_Frontend_Events_pages_1
+    - name: Integrations_Y42_Frontend_Events_pages_view
+    - name: Integrations_Y42_Frontend_Events_session_duration_1
+    - name: Integrations_Y42_Frontend_Events_session_duration_view
+    - name: Integrations_Y42_Analytics_Integrations_src_job_info_service_job_info_service_public_git_commit
+    - name: Integrations_Y42_Analytics_Integrations_src_job_info_service_job_info_service_public_job_1
+    - name: Integrations_Y42_Analytics_Integrations_src_job_info_service_job_info_service_public_job_branch
